@@ -6,6 +6,7 @@ lawyer weixin project
 - NodeJs
 
 #### Build from Source
-       $ git clone https://github.com/perrywang/laywer.git
+       $ git clone https://github.com/perrywang/lawyer.git
        $ npm install
        $ npm run dev
+visit localhost:8080
