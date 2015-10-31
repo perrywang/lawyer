@@ -3,7 +3,7 @@ lawyer weixin project
 
 #### Prerequisites
 
-- NodeJs
+- NodeJS
 
 #### Build from Source
        $ git clone https://github.com/perrywang/lawyer.git
