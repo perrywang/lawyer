@@ -2,7 +2,10 @@
 
 <template lang="jade">
 div#app.container-fluid
-  login
+  #header
+    a(v-link="{path:'/login'}") Login
+    a(v-link="{path:'/search'}") Search
+  router-view
 </template>
 
 <script>
@@ -13,9 +16,6 @@ export default {
     return {
       msg: 'Hello Lawyer'
     }
-  },
-  components: {
-    Login
   }
 }
 </script>
