@@ -1,15 +1,14 @@
 <style lang="stylus" src="./app.styl"></style>
 
 <template lang="jade">
-div#app.container-fluid
-  #header
-    a(v-link="{path:'/login'}") Login
-    a(v-link="{path:'/search'}") Search
+div#app.container-fluid(style="padding-top:4rem;")
   router-view
 </template>
 
 <script>
-import Login from './components/login.vue'
+$('#menu').click(function(){
+	alert("bangbangbang");
+});
 
 export default {
   data() {

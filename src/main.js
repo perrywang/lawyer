@@ -4,15 +4,19 @@ var VueRouter = require('vue-router');
 Vue.use(VueRouter);
 
 var App = require('./app.vue');
-var Search = require('./components/search.vue');
-var Login = require('./components/login.vue');
-var LawyerList = require('./components/lawyers.vue');
-var LawyerDetail = require('./components/lawyer.vue');
-var Questioning = require('./components/questioning.vue');
+var Home = require('./components/user/home.vue');
+var Login = require('./components/user/login.vue');
+var Search = require('./components/user/search.vue');
+var LawyerList = require('./components/user/lawyers.vue');
+var LawyerDetail = require('./components/user/lawyer.vue');
+var Questioning = require('./components/user/questioning.vue');
 
 var router = new VueRouter();
 
 router.map({
+	"/" : {
+		component:Home
+	},
 	"/search":{
 		component:Search
 	},
